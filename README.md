@@ -21,18 +21,13 @@ CUDA-enabled PyTorch is used when available; otherwise, inference falls back to 
 YOLOv8-Multiple-Object-Detection/
 ├── assets/
 │   └── detection_result_1.png       # Add your detection screenshots
-├── videos/
-│   ├── input/
-│   │   └── objects_video.mp4        # Add your recorded input video
-│   └── output/
-│       └── output_yolov8.mp4        # Generated after running the script
 ├── yolov8_detection.py
 ├── requirements.txt
 ├── README.md
 └── .gitignore
 ```
 
-The input and output videos are included in the intended repository structure. Add your actual video files to the folders above before committing. Check their sizes against GitHub's 100 MB per-file limit; use Git LFS if a video exceeds that limit.
+Add your actual video files to the folders before running the code, the input file should be be in "MP4" formate and it will generate the output file in your local directory.
 
 ## Requirements
 
