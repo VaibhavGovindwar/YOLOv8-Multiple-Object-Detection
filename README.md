@@ -20,14 +20,14 @@ CUDA-enabled PyTorch is used when available; otherwise, inference falls back to 
 ```text
 YOLOv8-Multiple-Object-Detection/
 ├── assets/
-│   └── detection_result_1.png       # Add your detection screenshots
+│   └── detection_result_1.png       # Detection screenshots
 ├── yolov8_detection.py
 ├── requirements.txt
 ├── README.md
 └── .gitignore
 ```
 
-Add your actual video files to the folders before running the code, the input file should be be in "MP4" formate and it will generate the output file in your local directory.
+Add your actual video files to the folders before running the code. The input file must be in MP4 format, and the script will save the output file to your local directory.
 
 ## Requirements
 
