@@ -1,0 +1,4 @@
+ultralytics
+opencv-python
+numpy==1.26.4
+# Install torch and torchvision separately for the desired CPU/CUDA build.
