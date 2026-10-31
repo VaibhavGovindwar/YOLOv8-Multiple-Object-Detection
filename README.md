@@ -112,7 +112,8 @@ Press **Q** in the display window to stop processing early.
 Add your screenshots to `assets/` and reference them here. For example:
 
 ```markdown
-![YOLOv8 detection result](assets/detection_result_1.png)
+![YOLOv8 detection result](<img width="1920" height="1080" alt="Screenshot 2026-04-05 180120" src="https://github.com/user-attachments/assets/47a77a5a-7f43-4d30-ad9b-086629449fb1" />
+)
 ```
 
 The screenshots should be taken from your actual model output. Do not report illustrative confidence values or FPS values as benchmark results.
